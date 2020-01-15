@@ -1,0 +1,64 @@
+/* --- Flex ---  */
+
+.f-row {
+  display: flex;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Padding / Margin  --- */
+
+.pad-edge {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mg-upright {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/*  --- Font ---  */
+
+.up-case {
+  text-transform: uppercase;
+}
+
+/* --- Background --- */
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+/* --- Buttons ---  */
+
+.btn {
+  font-family: 'Niramit', sans-serif;
+
+  padding: .5rem 2rem;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, .2);
+  
+  transform: translateY(-.2rem);
+}
+
+.btn, 
+.btn:hover {
+  transition: transform var(--transTime), box-shadow var(--transTime);
+}
+
+.btn-rnd {
+  border-radius: 5px;
+}
